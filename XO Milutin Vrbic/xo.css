@@ -1,0 +1,26 @@
+*, html{
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: #ccc;
+}
+
+#tabla {
+    display: block;
+    width: 500px;
+    margin: auto;
+    align-content: center;
+    background-color: black;
+}
+
+.red {
+    width: 100%;
+    height: calc(500px/3);
+}
+
+.polje {
+    height: 100px;
+    width: calc(500px/3);
+    background-color: white;
+}
